@@ -18,4 +18,4 @@ app/src/main/res/values/colors.xml
 app/src/main/res/values/themes.xml
 
 app/src/main/res/drawable/ic_launcher.xml
-app/src/main/res/drawable/ic_launcher_foreground.xml
+app/src/main/res/drawable/ic_launcher_background.xml
