@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <TextView android:text="Sr No" android:padding="8dp"/>
+                <TextView android:text="Medicine Name" android:padding="8dp"/>
+                <TextView android:text="Count" android:padding="8dp"/>
+                <TextView android:text="Purchase Date" android:padding="8dp"/>
+                <TextView android:text="Expiry Date" android:padding="8dp"/>
+                <TextView android:text="Image" android:padding="8dp"/>
+                <TextView android:text="Dosage" android:padding="8dp"/>
+                <TextView android:text="Info" android:padding="8dp"/>
+                <TextView android:text="Delete" android:padding="8dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>
